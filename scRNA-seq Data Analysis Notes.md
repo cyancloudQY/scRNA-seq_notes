@@ -1,4 +1,4 @@
-# scRNA-seq Data Analysis Notes
+# Seurat Notes
 ## Tips
 1. **Metadata** contains the general information including:   *a. Gene count b. RNA count c. Clustering ID.* Other sample information can also be stored in the metadata. Metadat can be edited by using simple assignment.
 2. **Assays** contains different expression assays. Should choose the approprite assay for different purposes.
