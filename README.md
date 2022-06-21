@@ -1,2 +1,6 @@
 # scRNA-seq_notes
-QC + 
+1. QC 
+2. Clustering
+3. Find Markers
+
+Data are retrieved from 
