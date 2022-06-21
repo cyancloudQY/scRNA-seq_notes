@@ -111,23 +111,4 @@ saveRDS(filtered_SRR7722939, file="./SRR7722939/data/filtered_SRR7722939.rds")
 
 
 
-file_list <- read_tsv('integration_list.txt', col_names = FALSE)
-
-files <- file_list$X1
-paths <- file_list$X2
-
-
-for (i in 1:length(files))
-{
-seurat_object <- readRDS(paths[i])
-assign(files[i], seurat_object)
-}
-
-split_list <- list()
-for (i in 1:length((files)))
-{
-split_list[[i]] <- get(files[i])
-}
-
-
 
