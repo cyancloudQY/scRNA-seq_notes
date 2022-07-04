@@ -4,7 +4,7 @@
 2. Clustering
 3. Find Markers
 
-This workflow demonstrates the rough Seurat steps (Quality Control, Dimensional Reduction, Assgigning cell type) after getting the matrix directory from Cell Ranger. 
+This workflow demonstrates the rough Seurat steps (Quality Control, Dimensional Reduction, Cell Type Assignment) after getting the matrix directory from Cell Ranger. 
 Sample Data are retrieved from NCBI with sample name SRR7722939. 
 
 
