@@ -28,7 +28,8 @@ ggsave('./SRR7722939/results/top10_variable.pdf')
 ################ Scaling the data #############################
 #1. The scale data can be used to do the dimensional reduction
 #2. Can not use this Scaled data to do the expression analysis or 
-#visulization, because they are scaled to around o and 1. 
+# because they are scaled to around o and 1. But DoHeatMap and DotPlot
+# do use scale data for better visualization purpose.
 #3. Use normalzied data for analysis.
 filtered_SRR7722939 <- ScaleData(filtered_SRR7722939, vars.to.regress = 'mitoRatio')
 
