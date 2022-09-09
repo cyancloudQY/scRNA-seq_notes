@@ -1,10 +1,18 @@
 # scRNA-seq_notes
 
-1. QC 
-2. Clustering
-3. Find Markers
+Some useful scripts and softwares in scRNA-seq analysis.
 
-This workflow demonstrates the rough Seurat steps (Quality Control, Dimensional Reduction, Cell Type Assignment) after getting the matrix directory from Cell Ranger. 
-Sample Data are retrieved from NCBI with sample name SRR7722939. 
+
+## Seurat Workflow
+
+## Dedoublet
+DoubletFinder
+Scrublet
+
+## Automatic Annotation
+SingleR
+Garnett
+
+
 
 
